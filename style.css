@@ -1,0 +1,59 @@
+body {
+    background-color: #E4F9F5;
+    color: #40514E;
+}
+
+.logo {
+    display: flex;
+}
+
+.logo img {
+    width: 40px;
+    height: 40px;
+    margin-right: 5px;
+}
+
+.about-community {
+    text-align: center;
+    padding: 20px;
+}
+
+.about-community p {
+    text-align: justify;
+}
+
+.registration {
+    background-color: #30E3CA   ;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.registration * {
+    width: 100%;
+}
+
+.registration h2 {
+    text-align: center;
+}
+
+
+.registration input {
+    margin: 5px 0;
+    padding: 12px 12px;
+    box-sizing: border-box;
+    border: none;
+    border-radius: 5px;
+}
+
+.registration input[type=submit] {
+    background-color: #0eb916;
+    cursor: pointer;
+}
+
+.registration input[type=submit]:hover {
+    opacity: 0.7;
+}
+
+.copyright {
+    text-align: center;
+}
